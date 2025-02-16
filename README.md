@@ -13,11 +13,12 @@ Clona el repositorio:
 git clone https://github.com/tu-usuario/mnist-digit-recognition.git
 ```
 
-Instala dependencias:
-
+## Instala dependencias:
+```bash
 pip install -r requirements.txt
+```
 
-Estructura del proyecto
+## Estructura del proyecto
 
 - 📁 mnist-digit-recognition/
   - 📁 data/
@@ -31,31 +32,33 @@ Estructura del proyecto
   - 📄 requirements.txt
   - 📄 README.md
 
-Cómo entrenar el modelo
+## Cómo entrenar el modelo
 
 Ejecuta el script de entrenamiento:
-
+``` bash
 python src/train\_model.py
+```
 
-Ejemplo de predicción
+## Ejemplo de predicción
 
 Usa una imagen de ejemplo para probar el modelo:
-
+``` bash
 python src/predict.py --image\_path samples/ejemplo\_5.png
+```
 
-Resultados
+## Resultados
 
 Precisión en test: 99.2%
 
 Matriz de confusión disponible en: reports/confusion\_matrix.png
 
-Recursos
+## Recursos
 
 Dataset MNIST en Keras: https://keras.io/api/datasets/mnist/
 
 Tutorial de CNN: [Enlace a tutorial relevante]
 
-Licencia
+## Licencia
 
 MIT License
 
