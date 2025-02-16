@@ -10,7 +10,7 @@ Proyecto para clasificar dígitos manuscritos usando una red neuronal convolucio
 
 Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/mnist-digit-recognition.git
+git clone https://github.com/3thanF/mnist-digit-recognition.git
 ```
 
 ## Instala dependencias:
