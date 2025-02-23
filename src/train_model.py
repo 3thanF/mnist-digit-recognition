@@ -25,11 +25,11 @@ class MNISTClassifier:
         X_test = X_test.reshape(-1, 28, 28, 1).astype('float32') / 255.0
 
         # Create models directory if not exists
-        os.mkdirs('../../models', exist_ok=True)
+        os.mkdirs('../models', exist_ok=True)
 
         # Callbacks
         checkpoint = ModelCheckpoint(
-            '../../models/mnist_cnn.h5',
+            '../models/mnist_cnn.h5',
             monitor='val_accuracy',
             save_best_only=True,
             mode='max'
